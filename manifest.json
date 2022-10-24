@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Pipe to Piped",
+  "version": "1.0",
+
+  "description": "Redirects you from youtube to stable piped",
+
+  "icons": {
+    "48": "icons/piped.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["piped.js"]
+    }
+  ]
+
+}
