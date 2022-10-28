@@ -1,20 +1,19 @@
 {
-
   "manifest_version": 2,
   "name": "Pipe to Piped",
   "version": "1.0",
-
   "description": "Redirects you from youtube to stable piped",
-
+  "homepage_url": "https://github.com/octagony/firefox-to-piped-extension",
   "icons": {
     "48": "icons/piped.png"
   },
-
-  "content_scripts": [
-    {
-      "matches": ["*://*.youtube.com/*"],
-      "js": ["piped.js"]
-    }
-  ]
-
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/piped.png",
+    "default_title": "To Piped",
+    "default_popup": "main/view.html"
+  }
 }
