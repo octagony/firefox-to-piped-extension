@@ -1,6 +1,8 @@
 body{
     padding: 10px;
     text-align: center;
+    background:  #DDF0E4;
+    color: #161816;
 }
 
 select{
@@ -30,4 +32,11 @@ button{
 button:hover{
     background-color: red;
     color: white;
+}
+
+@media (prefers-color-scheme:dark){
+    body{
+        background: #161816;
+        color:  #DDF0E4;
+    }
 }
