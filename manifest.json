@@ -1,19 +1,24 @@
 {
-  "manifest_version": 2,
-  "name": "Pipe to Piped",
-  "version": "1.0",
-  "description": "Redirects you from youtube to stable piped",
-  "homepage_url": "https://github.com/octagony/firefox-to-piped-extension",
-  "icons": {
-    "48": "icons/piped.png"
-  },
-  "permissions": [
-    "tabs",
-    "activeTab"
-  ],
-  "browser_action": {
-    "default_icon": "icons/piped.png",
-    "default_title": "To Piped",
-    "default_popup": "main/view.html"
-  }
+	"manifest_version": 3,
+	"name": "Pipe to Piped",
+	"description": "Redirects you from youtube to stable piped",
+	"homepage_url": "https://github.com/octagony/firefox-to-piped-extension",
+	"version": "1.0.0",
+	"permissions": ["tabs", "activeTab"],
+	"action": {
+		"default_popup": "main/view.html",
+		"default_title": "To Piped",
+		"default_icon": {
+			"48": "icons/piped.png"
+		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "github.com@data-verse",
+			"strict_min_version": "42.0"
+		},
+		"safari": {
+			"strict_min_version": "14"
+		}
+	}
 }
