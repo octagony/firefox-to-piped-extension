@@ -2,7 +2,9 @@
 
 A simple redirector from youtube to piped serivce.
 
-## Add to Firefox
+[Link to addons store](https://addons.mozilla.org/en-US/firefox/addon/pipe-to-piped/)
+
+## Add to Firefox (Manualy)
 
 1. Clone the repository into any folder.
 2. In Firefox, open `about:debugging` tab.

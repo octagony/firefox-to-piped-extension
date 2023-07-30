@@ -1,42 +1,42 @@
-body{
-    padding: 10px;
-    text-align: center;
-    background:  #DDF0E4;
-    color: #161816;
+body {
+	padding: 10px;
+	text-align: center;
+	background: #ddf0e4;
+	color: #161816;
 }
 
-select{
-    width:100%;
-    margin-bottom: 1em;
-    padding: 0.25em;
-    border: 0;
-    border-bottom: 2px solid currentColor;
-    border-radius: 0;
-    cursor:pointer;
+select {
+	width: 100%;
+	margin-bottom: 1rem;
+	padding: 0.25em;
+	border: 0;
+	border-bottom: 2px solid currentColor;
+	border-radius: 0;
+	cursor: pointer;
 }
 
 select:focus,
-select:active{
-    outline:none;
-    border-bottom-color: red;
+select:active {
+	outline: none;
+	border-bottom-color: red;
 }
 
-button{
-    border:0;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    transition: all 0.2s ease-in-out;
-    cursor:pointer;
+button {
+	border: 0;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
 }
 
-button:hover{
-    background-color: red;
-    color: white;
+button:hover {
+	background-color: red;
+	color: white;
 }
 
-@media (prefers-color-scheme:dark){
-    body{
-        background: #161816;
-        color:  #DDF0E4;
-    }
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #161816;
+		color: #ddf0e4;
+	}
 }
